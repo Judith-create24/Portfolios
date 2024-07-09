@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>ArtEspace</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="ArtEspace - Home">
+    <meta name="Author" content="JudithF">
+    <meta name="description" content="Todo sobre cultura" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim" rel="stylesheet">
+    <!-- Fuentes de texto vectoriales a utilizar -->
+    <!-- FontAwesome 5.12 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+
+    <!-- Estilos y reglas CSS a utilizar -->
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+    
+<body class="home">
+    <!-- Cabecera del documento -->
+    <header>
+<!-- Logo del documento Zona de oro-->
+        <span class="logotipo">ArtEspace</span>
+
+<!-- Menú de navegación -->
+        <nav>
+            <button class="menu-toggle">
+                <span><i></i><i></i><i></i></span>
+            </button>
+            
+            <ul>
+                <!-- Los ./ de HREF deben ser reemplazados por la URL local
+                     P.E: http://universES.org/pages/login/ -->
+                <li><h3>ArtEspace</h3></li>
+
+                <li class="active"><a href="/ArtEspace/">Inicio</a></li>
+                <li><a href="./pages/donde-estamos/index.html">Acerca de</a></li>
+                <li><a href="./pages/contactar/index.html">Contactar</a></li>
+                <li><a href="./pages/login/index.html">Acceder</a></li>
+            </ul>
+        </nav>
+<!-- Fin del menú de navegación -->
+
+    </header>
+
+    <!-- Declaración del banner, anuncio,img o background de color a destacar
+         Puede llevar foto fondo, el nombre empresa y una frase destacada -->
+    <div class="banner" role="banner">
+        <b>ArtEspace</b>
+        <p>Eventos culturales a tu alcance</p>
+<!--         <img src="img/Mnac.jpg" alt="Foto Panoramica de  Barcelona desde el Museo">
+ -->    </div>
+
+    <!-- Contenido principal del documento -->
+    <main>
+        <section>
+             <!-- Comienza con el título al margen <h1>  
+                 4 article/header/h2/img/div:<p>/<a> (columnas)
+                  Contiene foto texto y seguir leyendo -->
+            <h1>Sitios para Visitar</h1>
+             <!-- Contenido principal del documento -->
+            <article>
+                <header>
+                    <h2>Barcelona</h2>
+                    <img src="../APCulturalS/src/img/parcGuell.jpg"
+                         onerror="this.classList.add('error')"
+                         alt="Foto ParcGuell">
+                </header>
+
+                <div>
+                    <p>
+                        Lugar Turístico, para disfrutar</p>
+                    </p>
+                    <a class="flash" href="./">
+                        Seguir leyendo
+                    </a>
+                </div>
+            </article>
+
+            <article>
+                <header>
+                    <h2>Palau de la Musica</h2>
+                    <img src="../APCulturalS/src/img/palaudelamusica.jpg"
+                         onerror="this.classList.add('error')"
+                         alt="Foto Palau">
+                </header>
+
+                <div>
+                    <p>
+                        Lugar Turístico, para disfrutar</p>
+                    </p>
+                    <a class="flash" href="./">
+                        Seguir leyendo
+                    </a>
+                </div>
+            </article>
+
+            <article>
+                <header>
+                    <h2>Ramblas</h2>
+                    <img src="../APCulturalS/src/img/ramblacanaletas.jpg"
+                         onerror="this.classList.add('error')"
+                         alt="Foto Ramblas">
+                </header>
+
+                <div>
+                    <p>
+                        Lugar Turístico, para disfrutar</p>
+                    <a class="flash" href="./">
+                        Seguir leyendo
+                    </a>
+                </div>
+            </article>
+
+            <article>
+                <header>
+                    <h2></h2>
+                    <img src="../APCulturalS/src/img/planocerda.jpg"
+                         onerror="this.classList.add('error')"
+                         alt="Foto Plano Cerá" />
+                </header>
+
+                <div>
+                    <p>
+                        Lugar Turístico, para disfrutar</p> <br><br>
+                    <a class="flash" href="./">
+                        Seguir leyendo
+                    </a>
+                </div>
+            </article>
+
+            <!-- ... -->
+        </section>
+    </main>
+
+    <!--Articulos relacionados con el contenido principal y
+    Archivo de comentarios anteriores similar a blog-->
+    <aside class="menu-application">
+        <div class="container">
+            <h2>Articulos</h2>
+            <ul>
+                <li>
+                    <a href="./pages/via-lactea.html">
+                        <i class="fas fa-hand-spock"></i>
+                        Porfirio Romano<b>Picasso</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="./pages/m31.html">
+                        <i class="fab fa-old-republic"></i>
+                        Porfirio Romano <b>Dali</b>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./pages/m16.html">
+                        <i class="fas fa-jedi"></i>
+                        Porfirio Romano <b>Flores en el jardin</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="./pages/m104.html">
+                        <i class="fab fa-galactic-republic"></i>
+                        Porfirio Romano <b>Amanecer</b>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+            
+<!--Deshactivo el resto de fechas--> 
+          <h2>Archivos</h2>
+            <ul>
+                <li><a href="#"><i class="fab fa-galactic-senate"></i> 2024</a></li>
+               <!-- <li><a href="#"><i class="fab fa-galactic-senate"></i> Febrero 2020</a></li>
+                <li><a href="#"><i class="fab fa-galactic-senate"></i> marzo 2020</a></li>
+                <li><a href="#"><i class="fab fa-galactic-senate"></i> Abril 2020</a></li> -->
+            </ul>
+        </div>
+    </aside>
+
+    <!-- Pie del documento o página Logo/cpoyright/aviso legal
+     Politica de privacidad/Contar/redes sociales-->
+    <footer>
+        <span class="logotipo">ArtEspace</span>
+        <ul>
+            <li><a href="https://www.facebook.com/home.php" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fas fa-share-alt"></i></a></li>
+        </ul>
+
+        <div class="links">
+            <ul>
+                <li><a href="#">(c) Copyright 2024</a></li>
+                <li><a href="#">Aviso Legal</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Contactar</a></li>
+            </ul>    
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="../js/scripts.js"></script>
+</body>
+</html>
